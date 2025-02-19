@@ -1,4 +1,31 @@
-.first-column-container{
-    width: 300px;
-    box-shadow: 0 0 10px rgba, (0 , 0, 0 , 0.1);
+.first-column-container {
+    background: rgb(117,117,117);
+    background: radial-gradient(circle, rgba(117,117,117,0.5298494397759104) 16%, rgba(18,18,18,0.2189250700280112) 53%);
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
+
+.first-column-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.first-column-container input {
+    padding: 8px;
+    border: 1px solid #140d80;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.first-column-container div {
+    margin-bottom: 15px;
+}
+
+.first-column-container h2 {
+    text-align: center;
+}
+
