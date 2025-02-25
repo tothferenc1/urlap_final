@@ -8,9 +8,9 @@
 </head>
 <body>
     <form action="">
-        <div class="first-column-container"> 
+        <div class="first-column-container">
             <h2>Adatok:</h2>
-            <div class="name_container"> 
+            <div class="name_container">
                 <label for="name">Név:</label>
                 <input type="text" name="name=" id="name"  placeholder="Írja be a nevét" required>
             </div>
@@ -34,6 +34,46 @@
 
         <button type="submit">Elküld</button>
 
+        <div class="second-form-container">
+            <h2>További adatok</h2>
+                <h3>Melyik csoportba tartozik gyakorlaton?</h3>
+                <div class="csop">
+                    <input type="radio" name="csop" id="csoport1" value="csoport1">
+                    <label for="csoport1">1. csoport</label>
+                </div>
+
+                <div class="csop">
+                    <input type="radio" name="csop" id="csoport2" value="csoport2">
+                    <label for="csoport2">2. csoport</label>
+                </div>
+
+                <div class="csop">
+                    <input type="radio" name="csop" id="csoport3" value="csoport3">
+                    <label for="csoport3">3. csoport</label>
+                </div>
+
+                <h3>Melyik a kedvenc tárgya? <br>Válasszon akár több tárgyat is!</h3>
+                <div class="box">
+                    <input type="checkbox" name="box" id="matek" value="matematika">
+                    <label for="matek">Matematika</label>
+                </div>
+
+                <div class="box">
+                    <input type="checkbox" name="box" id="fizika" value="fizika">
+                    <label for="fizika">Fizika</label>
+                </div>
+
+                <div class="box">
+                    <input type="checkbox" name="box" id="info" value="informatika">
+                    <label for="informatika">Informatika</label>
+                </div>
+
+                <div class="box">
+                    <input type="checkbox" name="box" id="prog" value="programozás">
+                    <label for="prog">Programozás</label>
+                </div>
+
+        </div>
     </form>
 </body>
 </html>

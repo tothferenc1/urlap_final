@@ -29,3 +29,22 @@
     text-align: center;
 }
 
+.second-form-container {
+    width: 250px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 35px 50px rgba(120, 120, 120);
+}
+
+.second-form-container h2 {
+    text-align: center;
+}
+
+.second-form-container h3 {
+    text-align: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
