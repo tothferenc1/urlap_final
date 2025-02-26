@@ -30,11 +30,13 @@
 }
 
 .second-form-container {
+    background: rgb(117,117,117);
+    background: radial-gradient(circle, rgba(117,117,117,0.5298494397759104) 16%, rgba(18,18,18,0.2189250700280112) 53%);
     width: 250px;
     margin-left: 20px;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 15px 35px 50px rgba(120, 120, 120);
+    border-radius: 20px;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
 
 .second-form-container h2 {
