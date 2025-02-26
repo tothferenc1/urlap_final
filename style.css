@@ -1,10 +1,12 @@
 .first-column-container {
     background: rgb(117,117,117);
     background: radial-gradient(circle, rgba(117,117,117,0.5298494397759104) 16%, rgba(18,18,18,0.2189250700280112) 53%);
+
     margin-left: 20px;
     padding: 20px;
     border-radius: 20px;
-    width: 250px;
+    width: 400px;
+    height: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
 
@@ -25,28 +27,68 @@
     margin-bottom: 15px;
 }
 
-.first-column-container h2 {
+.first-column-container  {
     text-align: center;
 }
 
 .second-form-container {
     background: rgb(117,117,117);
     background: radial-gradient(circle, rgba(117,117,117,0.5298494397759104) 16%, rgba(18,18,18,0.2189250700280112) 53%);
-    width: 250px;
-    margin-left: 20px;
+
     padding: 20px;
-    border-radius: 20px;    
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
 
-.second-form-container h2 {
+.second-form-container h2,
+.second-form-container h3 {
     text-align: center;
+    padding: 8px;
 }
 
-.second-form-container h3 {
-    text-align: left;
+.second-form-container .csop {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.second-form-container .box {
+    margin-left: 50px;
+    padding: 8px;
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: lightgray;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.third-form-container {
+    background: rgb(117,117,117);
+    background: radial-gradient(circle, rgba(117,117,117,0.5298494397759104) 16%, rgba(18,18,18,0.2189250700280112) 53%);
+
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+
+button {
+    background-color: gray;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgray;
+    transition: all .2s;
 }
